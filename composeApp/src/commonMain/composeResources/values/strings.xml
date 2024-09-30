@@ -1,0 +1,4 @@
+<resources>
+    <string name="enter_pin">Silakan masukkan PIN Anda</string>
+    <string name="no_pin">Anda belum memiliki PIN. Silakan tambahkan terlebih dahulu</string>
+</resources>
