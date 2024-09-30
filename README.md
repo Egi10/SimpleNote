@@ -1,14 +1,25 @@
-This is a Kotlin Multiplatform project targeting Android, iOS, Desktop.
+# SimpleNote
 
-* `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - `commonMain` is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    `iosMain` would be the right folder for such calls.
+SimpleNote adalah aplikasi pencatatan multiplatform yang dibangun menggunakan Compose Multiplatform. Aplikasi ini memungkinkan pengguna untuk membuat, mengedit, dan mengelola catatan dengan antarmuka yang konsisten di berbagai platform.
 
-* `/iosApp` contains iOS applications. Even if you’re sharing your UI with Compose Multiplatform, 
-  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
+## Fitur Utama
 
+- Buat, edit dan hapus catatan dengan mudah
+- Keamanan dengan PIN untuk melindungi catatan pribadi
+- Dukungan multiplatform (Android, iOS, Desktop)
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+## Teknologi yang Digunakan
+
+SimpleNote menggunakan teknologi modern untuk pengembangan multiplatform:
+
+- **Compose Multiplatform**: Untuk UI yang konsisten di berbagai platform
+- **Kotlin**: Bahasa pemrograman utama
+- **Coroutines**: Untuk pemrograman asynchronous
+- **Koin**: Untuk dependency injection
+- **Room**: Database lokal untuk Android
+- **Androidx Navigation**: Untuk navigasi antar layar
+- **Kotlinx Serialization**: Untuk serialisasi data
+- **Kotlinx Datetime**: Untuk manajemen tanggal dan waktu
+- **Compottie**: Untuk animasi Lottie di Compose
+- **Kermit**: Untuk logging multiplatform
+- **DataStore**: Untuk penyimpanan key-value yang persisten
