@@ -1,6 +1,5 @@
 package com.bajapuik.simple_note.domain.usecase.configuration
 
-import co.touchlab.kermit.Logger
 import com.bajapuik.simple_note.domain.utils.NotesResult
 
 class PinManagementUseCase(

@@ -67,11 +67,17 @@ class PinViewModel(
                             screen = PinNavigationEvents.OnHomeNavigation
                         )
                     } else {
+                        Logger.d("Disini") {
+                            "Satu ${result.data}"
+                        }
                         isErrorPin = true
                     }
                 }
 
                 is NotesResult.Error -> {
+                    Logger.d("Disini") {
+                        "Satu ${result.exception} - ${result.exception.message}"
+                    }
                     isErrorPin = true
                 }
             }
